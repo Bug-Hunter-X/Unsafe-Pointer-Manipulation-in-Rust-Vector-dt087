@@ -1,0 +1,1 @@
+This repository showcases a common error in Rust involving unsafe pointer manipulation of a vector. The `bug.rs` file contains code that directly modifies the vector's raw pointer using `as_mut_ptr()`, leading to undefined behavior. The solution demonstrates how to use safe methods to avoid these issues.
